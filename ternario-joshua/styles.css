@@ -1,0 +1,24 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  width: 120px;
+  height: 200px;
+  margin: 5px;
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nombre::first-letter {
+  text-transform: capitalize;
+}
+
+.texto {
+  font-size: 10px;
+}
